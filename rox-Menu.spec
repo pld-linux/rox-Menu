@@ -1,11 +1,10 @@
-%define _appsdir /usr/X11R6/share/ROX-apps
 %define _name ROX-Menu
 %define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	ROX-Menu is a simple application menu for the ROX Desktop environment
 Summary(pl):	ROX-Menu jest prostym rozwijanym menu dla ¶rodowiska ROX
 Name:		rox-Menu
 Version:	0.3.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.unixdaemons.com/~mindcrisis/projects/rox-menu-source.tar.gz
@@ -17,6 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 %define		_mandir		%{_prefix}/man
+%define   _appsdir  %{_libdir}/ROX-apps
 
 %description
 This simple ROX applet lets you launch your most used applications
