@@ -1,0 +1,19 @@
+diff -urN aaa/ROX-Menu/AppRun ROX-Menu/AppRun
+--- aaa/ROX-Menu/AppRun	Sun May 27 19:04:09 2001
++++ ROX-Menu/AppRun	Fri Jul  5 00:23:33 2002
+@@ -25,7 +25,7 @@
+ 	echo "Compiling $APP_DIR... please wait..." >&2
+ 	(rm -f $APP_DIR/src/.arch) && (echo $PLATFORM > $APP_DIR/src/.arch)
+ 	(cd $APP_DIR/src; make)
+-	exit 1
++	exit 0
+ esac
+ 
+ BIN=$APP_DIR/$PLATFORM/$PROG
+@@ -45,5 +45,5 @@
+     if [ -x $BIN ]; then
+ 	exec $BIN "$@"
+     fi
+-    exit 1
++    exit 0
+ fi
