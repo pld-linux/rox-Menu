@@ -15,7 +15,7 @@ BuildRequires:	gdk-pixbuf-devel
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define   _appsdir  %{_libdir}/ROX-apps
+%define		_appsdir	%{_libdir}/ROX-apps
 
 %description
 This simple ROX applet lets you launch your most used applications
