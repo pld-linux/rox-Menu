@@ -8,6 +8,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.unixdaemons.com/~mindcrisis/projects/rox-menu-source.tar.gz
+# Source0-md5:	84c69c0eb10617220a36538d6afdd140
 Patch0:		%{name}-AppRun-fix.patch
 URL:		http://www.unixdaemons.com/~mindcrisis/index.cgi?handler=proj_roxmenu
 BuildRequires:	gdk-pixbuf-devel
