@@ -1,7 +1,7 @@
 %define _name ROX-Menu
 %define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	ROX-Menu is a simple application menu for the ROX Desktop environment
-Summary(pl):	ROX-Menu jest prostym rozwijanym menu dla ¶rodowiska ROX
+Summary(pl.UTF-8):   ROX-Menu jest prostym rozwijanym menu dla Å›rodowiska ROX
 Name:		rox-Menu
 Version:	0.3.2
 Release:	2
@@ -22,9 +22,9 @@ This simple ROX applet lets you launch your most used applications
 without opening your wrapper directory. It works like a "K" button on
 KDE, and a "foot button" on GNOME desktops.
 
-%description -l pl
-Ten prosty aplet ROXa pozwala na uruchamianie najczê¶ciej u¿ywanych
-programów bez otwierania katalogu z wrapperami. Wygl±da on tak jak
+%description -l pl.UTF-8
+Ten prosty aplet ROXa pozwala na uruchamianie najczÄ™Å›ciej uÅ¼ywanych
+programÃ³w bez otwierania katalogu z wrapperami. WyglÄ…da on tak jak
 przycisk "K" w KDE, lub "przycisk-stopa" w GNOME.
 
 %prep
