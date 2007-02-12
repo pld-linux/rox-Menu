@@ -1,7 +1,7 @@
 %define _name ROX-Menu
 %define _platform %(echo `uname -s`-`uname -m|sed 's/i.86/ix86/'`)
 Summary:	ROX-Menu is a simple application menu for the ROX Desktop environment
-Summary(pl.UTF-8):   ROX-Menu jest prostym rozwijanym menu dla środowiska ROX
+Summary(pl.UTF-8):	ROX-Menu jest prostym rozwijanym menu dla środowiska ROX
 Name:		rox-Menu
 Version:	0.3.2
 Release:	2
